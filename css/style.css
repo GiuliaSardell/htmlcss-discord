@@ -120,9 +120,8 @@ nav ul li:hover{
   margin: 0 auto;
 }
 
-.img-main, .t-main{
+.img-float, .t-float{
   float: left;
-  width: 60%;
 }
 
 .img-main img{
@@ -135,13 +134,12 @@ nav ul li:hover{
   width: 300px;
 }
 
-.t-main h1{
+.t-main h1, .last-text h1{
   font-size: 40px;
   color: black;
-  padding-top: 30px;
 }
 
-.t-main p{
+.t-main p, .last-text p{
   color: black;
   font-size: 16px;
 }
@@ -153,4 +151,42 @@ nav ul li:hover{
 
 #second-img{
   margin-left: 100px;
+}
+
+.last-text{
+  text-align: center;
+}
+
+.last-text p{
+  padding-top: 40px;
+}
+
+.last-text h1{
+  padding-top: 50px;
+}
+
+.last-img{
+  height: 500px;
+  position: relative;
+}
+
+.last-img img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2{
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.star{
+  height: 100px;
+  width: 550px;
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
