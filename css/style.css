@@ -24,9 +24,7 @@ header{
 
 .container{
   margin: 0 auto;
-  max-width: 90%;
-  height: 80px;
-  border: 1px solid black;
+  width: 90%;
 }
 
 .logo img{
@@ -35,10 +33,14 @@ header{
 
 nav ul li{
   display: inline-block;
-  /* text-decoration: none; */
   color: white;
   padding: 0 20px;
 } 
+
+nav ul li:hover{
+  text-decoration: underline;
+}
+
 
 .logo, .main-nav{
   float: left;
@@ -46,8 +48,10 @@ nav ul li{
 
 #accedi{
   float: right;
-  background-color: white;
 }
+
+
+
 
 .main-nav{
   width: calc(100% - 200px);
@@ -61,4 +65,92 @@ nav ul li{
   background-color: white;
   text-decoration: none;
   border-radius: 40px;
+}
+
+
+.jumbotron{
+  height: 510px;
+  background-image: url(../img/jumbo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.text{
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.text h1{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 90px;
+}
+
+.text p{
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.big{
+  padding: 15px;
+}
+
+.btn.black{
+  background-color: black;
+  color: white;
+  margin: 20px;
+}
+
+.btn:hover{
+  color: #3161E0 ;
+}
+
+.white{
+  background-color: white;
+}
+
+
+.bg{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.img-main, .t-main{
+  float: left;
+  width: 60%;
+}
+
+.img-main img{
+  width: 500px;
+  margin-top: 100px;
+}
+
+.t-main{
+  text-align: left;
+  width: 300px;
+}
+
+.t-main h1{
+  font-size: 40px;
+  color: black;
+  padding-top: 30px;
+}
+
+.t-main p{
+  color: black;
+  font-size: 16px;
+}
+
+
+.grey{
+  background-color: #F6F6F6;
+}
+
+#second-img{
+  margin-left: 100px;
 }
